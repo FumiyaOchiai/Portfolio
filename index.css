@@ -1,0 +1,375 @@
+* {
+  /* box-sizing: border-box; */
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  background-color: #fff;
+}
+
+
+/* おすすめ車種ボタン */
+.aw{
+  text-align: center;
+  display: inline-block;
+}
+.aw input{
+  width: 200px;
+  height: 40px;
+  border-radius: 30px;
+  background-color: #53aa3d;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+main{
+  margin: 0 40px;
+  /* background-color: khaki; */
+}
+.main-container{
+  padding: 30px;
+  margin:0 auto;
+}
+.main-container h2{
+  text-align: center;
+  padding: 50px;
+}
+
+.slider1 {
+    width: 100%;
+    /* margin:0 auto; */
+    
+ }
+ .slider1 a{
+   text-decoration: none;
+   color: black;
+
+ }
+.slider1 img{
+  height: 200px;
+  width: 100px;
+}
+
+.slick-slide1 {
+  padding: 30px 10px;
+ 
+}
+
+.slick-slide img {
+  width: 100%;
+  
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+
+.slick-slide {
+  transition: all ease-in-out .3s;
+}
+.center .slick-dots{
+  justify-content: center;
+  position: absolute;
+  bottom:-50px;  
+  left: 0px;   
+  width: 100%;
+}
+
+
+
+
+/* 横並び */
+.main-connconn{
+  display: flex;
+  justify-content: center;
+  /* 透けた画像を使う */
+  /* background-image: url(image/baiku2.jpg); */
+  /* background-repeat: no-repeat;   */
+  background-size: contain;
+
+  
+}
+.form-container{
+  display: flex;
+  width: 50%;
+  /* border: 2px solid #ffffff; */
+  background-color: #E0DEDE;
+}
+
+
+            
+          
+  
+
+form{
+  text-align: center;
+  margin: auto;
+  /* border: 2px solid black; */
+  border-radius: 5px;
+}
+
+form select{
+  margin: 10px;
+  height: 50px;
+  width: 220px; 
+  margin-bottom: 10px;
+  outline: none;
+  border: none;
+  opacity: .9;
+  border-radius:5px ;
+}
+form select:hover{
+  opacity: 1;
+}
+form h2{
+ text-align:center;
+ color: #fff;
+ font-size: 20px;
+ 
+}
+ 
+.form-button input{
+  margin:10px; 
+  width:400px ;
+  height: 50px;
+  opacity:.9;
+  border-radius:5px ;
+}
+.form-button input:hover{
+  opacity: 1;
+}
+
+
+
+/* ここからキャンペーン */
+.cp-container{
+  width: 50%;
+
+}
+.single-item{
+  width: 100%;
+  margin: 0 0 0 auto;
+  
+  
+  
+}
+.cp-container img{
+  width: 100%;
+  height: 430px;
+  
+}
+.slider2{
+  width: 100%;
+  height: 400px;
+  /* background-color: gray; */
+}
+
+.single-item .slick-dots{
+  justify-content: center;
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    width: 100%;
+    /* background-color:yellow ; */
+}
+
+.den{
+  margin: 20px;
+  border: 2px solid red;
+  border-radius:  5px;
+}
+
+
+.den p a{
+  color: #ff0000;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: underline;
+  text-decoration-color: #ff0000;
+}
+.den p{
+  text-align: center;
+  margin: 10px;
+}
+
+
+
+.gzzz{
+  /* background-color: #eef1f4; */
+  width: 100%;
+  padding: 60px;
+}
+/* .gzzz h2{
+  text-align: center;
+  padding: 30px;
+} */
+.gazou{
+display: flex;
+width: 100%;
+align-items: center;
+justify-content: space-around;
+}
+
+
+.gzzz-item{
+  width: 280px;
+  height: 110px;
+}
+
+
+
+
+.inner{
+  background-color: #eef1f4;
+  width: 100%;
+  padding: 30px;
+  margin: 30px;
+  margin: 0 auto;
+}
+.inner h2{
+  text-align: center;
+  padding: 30px;
+
+}
+
+
+.video{
+display: flex;
+width: 100%;
+/* align-items: center; */
+justify-content: space-around;
+}
+
+.video-item{
+  width: 350px;
+  height: 230px;
+}
+
+
+
+
+
+
+
+
+
+
+/* ここからインフォ */
+.info-container h2{
+  text-align: center;
+  padding: 50px;
+}
+.info-container{
+  display: flex;
+  padding: 30px;
+  
+  
+}
+.msr_newslist05 {
+  background-color: #FFFFFF;
+  border-top:1px solid #999999;
+  width: 100%;
+  height: 400px;
+  list-style: none;
+  overflow: scroll;
+
+}
+.msr_newslist05 li {
+  border-bottom:1px solid #999999;
+  font-size: 14px;
+}
+.msr_newslist05 li a {
+  box-sizing: border-box;
+  color: #333333;
+  display: table;
+  text-decoration: none;
+  transition: 0.2s ease-in-out;
+  -o-transition: 0.2s ease-in-out;
+  -moz-transition: 0.2s ease-in-out;
+  -webkit-transition: 0.2s ease-in-out;
+  width: 100%;
+}
+.msr_newslist05 li a:hover {
+  background: #EEEEEE;
+  text-decoration: none;
+}
+.msr_newslist05 li time {
+  border-right:1px solid #999999;
+  display: table-cell;
+  padding: 16px;
+  text-align:center;
+  vertical-align: middle;
+  width:14%;
+}
+.msr_newslist05 li .cat {
+  border-right:1px solid #999999;
+  display: table-cell;
+  padding: 16px;
+  text-align:center;
+  vertical-align: middle;
+  width:18%;
+}
+.msr_newslist05 li .ttl {
+  display: table-cell;
+  padding: 16px;
+  vertical-align: middle;
+}
+
+
+
+.msr_newslist06{
+  margin-left: 20px;
+  background-color: #FFFFFF;
+  border-top:1px solid #999999;
+  width: 100%;
+  height: 400px;
+  list-style: none;
+  overflow: scroll;
+}
+.msr_newslist06 li {
+  border-bottom:1px solid #999999;
+  font-size: 14px;
+}
+.msr_newslist06 li a {
+  box-sizing: border-box;
+  color: #333333;
+  display: table;
+  text-decoration: none;
+  transition: 0.2s ease-in-out;
+  -o-transition: 0.2s ease-in-out;
+  -moz-transition: 0.2s ease-in-out;
+  -webkit-transition: 0.2s ease-in-out;
+  width: 100%;
+}
+.msr_newslist06 li a:hover {
+  background: #EEEEEE;
+  text-decoration: none;
+}
+.msr_newslist06 li time {
+  border-right:1px solid #999999;
+  display: table-cell;
+  padding: 16px;
+  text-align:center;
+  vertical-align: middle;
+  width:14%;
+}
+.msr_newslist06 li .cat {
+  border-right:1px solid #999999;
+  display: table-cell;
+  padding: 16px;
+  text-align:center;
+  vertical-align: middle;
+  width:18%;
+}
+.msr_newslist06 li .ttl {
+  display: table-cell;
+  padding: 16px;
+  vertical-align: middle;
+}

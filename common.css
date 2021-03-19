@@ -1,0 +1,338 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  background-color: #000000;
+}
+header {
+  /* height: 160px; */
+  width: 100%;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.container {
+  width: 100%;
+}
+
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40px;
+}
+
+/* .header-left{
+  padding-left: 40px;
+  float:left;
+} */
+
+.header-logo {
+  background-color: white;
+}
+.header-logo:hover {
+  opacity: 0.5;
+}
+
+.header-right {
+  display: flex;
+  margin-top: 30px;
+  white-space: nowrap;
+}
+.header-right a {
+  color: white;
+}
+
+.header-right .ccc {
+  height: 44px;
+  width:120px ;
+  /* padding: 10px; */
+  background-color: #ab1e34;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-right .ddd {
+  background-color: #fabd00;
+  /* padding: 10px; */
+  height: 44px;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+/* .header-right .ddd a::before {
+  content:"";
+  display: inline-block;
+  height: 1em;
+  width: 1em;
+  background-image: url();
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #fff;
+  vertical-align: middle;
+} */
+
+.header-right .ccc a,
+.header-right .ddd a {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+}
+
+
+
+.header-right a:hover {
+  opacity: 0.5;
+}
+.header-right i {
+  display: inline-block;
+  padding-right: 10px;
+  font-size: 1.5em;
+  vertical-align: middle;
+}
+/* .header-right a:hover{
+  background-color: teal;
+  transition: background-color 0.5s;
+} */
+nav {
+  /* clear: both;  */
+  background-color: #103a61;
+}
+.header-menu {
+  font-weight: bold;
+  margin: 0 auto;
+}
+.header-menu li:hover {
+  opacity: 1;
+}
+
+.menu-ul {
+  display: flex;
+  /* margin: 0 40px; */
+  margin: 0 40px;
+}
+
+.header-menu li {
+  /* display: inline-block; */
+  opacity: 0.5;
+  list-style: none;
+  width: 20%;
+  padding: 20px 0;
+  text-align: center;
+  border-left: 1px solid white;
+  /* background-color: #103a61; */
+  box-sizing: border-box;
+}
+
+
+.header-menu li a {
+  text-decoration: none;
+}
+
+/* .header-menu li::before { 
+  content: '';
+  display: inline-block;
+  height: 1em;
+  width: 1em;
+  background-color: #fff;
+} */
+
+.header-menu li:nth-child(5) {
+  border-right: 1px solid white;
+}
+
+.header-menu a {
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+  background-color: #e0dede;
+}
+.footer-container {
+  padding: 50px;
+  /* height: 150px; */
+}
+/* 横並び */
+.footer-bt ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  /* background-color: tan; */
+  padding: 40px;
+  margin: 0 40px;
+}
+/* 要素幅 */
+.rent-rg li {
+  display: inline-block;
+  width: 50%;
+  box-sizing: border-box;
+  padding: 10px 0;
+  background-color: aqua;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.rent-rg li:hover {
+  opacity: 0.8;
+}
+.rent-rg li {
+  margin: 0 30px;
+}
+/* .rent-rg li:last-child{ 
+ margin-left: 30px;
+}  */
+
+/* ボタンいろ */
+.rent-rg .aaa {
+  font-weight: bold;
+  color: #fff;
+  transition: background-color 0.5s;
+  background-color: #ab1e34;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rent-rg .bbb {
+  font-weight: bold;
+  color: #103a61;
+  transition: background-color 0.5s;
+  background-color: #fabd00;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rent-rg i {
+  padding-right: 15px;
+  font-size: 1.8em;
+}
+
+.footer-text {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.flowbtn4 {
+  font-family: "Trebuchet MS", sans-serif;
+  border-radius: 50%;
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  font-size: 45px;
+  transition: 0.5s;
+  text-decoration: none;
+}
+.flowbtn4:hover {
+  color: #fff !important;
+}
+/* Twitter */
+.flowbtn4.fl_tw2 {
+  border: solid 1px #55acee;
+  color: #55acee;
+}
+/* Twitterマウスホバー時 */
+.flowbtn4.fl_tw2:hover {
+  border: solid 1px #55acee;
+  background: #55acee;
+}
+/* Instagram */
+.flowbtn4.insta_btn2 {
+  border: solid 1px #c6529a;
+  color: #c6529a;
+}
+/* Instagramマウスホバー時 */
+.flowbtn4.insta_btn2:hover {
+  border: solid 1px #c6529a;
+  background: #c6529a;
+}
+/* Facebook */
+.flowbtn4.fl_fb2 {
+  border: solid 1px #3b5998;
+  color: #3b5998;
+}
+/* Facebookマウスホバー時 */
+.flowbtn4.fl_fb2:hover {
+  border: solid 1px #3b5998;
+  background: #3b5998;
+}
+.flowbtn4.fl_li2 {
+  border: solid 1px #00c300;
+  color: #00c300;
+}
+/* LINEマウスホバー時 */
+.flowbtn4.fl_li2:hover {
+  border: solid 1px #00c300;
+  background: #00c300;
+}
+.flowbtn4 div {
+  font-size: 11px;
+  font-weight: bold;
+  position: relative;
+  bottom: 0px;
+}
+/* ulタグの内側余白を０にする */
+ul.snsbtniti {
+  padding: 0 !important;
+  list-style-type: none !important;
+}
+/* ボタンの位置 */
+.snsbtniti {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+/* ボタン同士の余白 */
+.snsbtniti li {
+  flex: 0 0 15%;
+  text-align: center !important;
+}
+
+/* 説明*/
+.btn-text {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+footer p {
+  color: black;
+  text-align: center;
+}
